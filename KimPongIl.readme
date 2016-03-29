@@ -1,0 +1,36 @@
+Short:        Pong clone written in assembler as a learning exercise
+Author:       jayminer@gmail.com, patrik.bo@gmail.com
+Uploader:     jayminer@gmail.com
+Type:         game/2play
+Version       0.90
+Architecture: m68k-amigaos >= 1.3.0
+Date:         3 Janurary 2014
+
+This is a simple Pong Clone written in assembler, as our first ever 68k
+assembler program. The game doesn't disable multitasking and should work
+on all 68k amigas, however we haven't tried it on anything older than 1.3.
+
+Requirements:
+- An Amiga (real or emulated)
+- About 20kB of free RAM
+- 2 joysticks
+- A color display
+- A great set of speakers to enjoy the lovely sound
+- A keyboard (to be able to exit the game)
+- A friend
+
+How to play:
+It's pong! First player to get 15 points wins. Once someone wins, restart
+by pressing fire on either joystick. Exit the game with the Escape key.
+
+The source code:
+Even if it's embarrasing to us, we decided to include the source code as
+it might help someone new to assembler on the amiga. It's not the most well
+documented code, but should be reasonably easy to follow. Feel free to do
+whatever you want with it.
+
+Thanks to:
+Piru for hwstartup
+Rickard Nilsson for moral support
+Tobias Söderlund for help and advice
+Stefan Adolfsson for being lame
